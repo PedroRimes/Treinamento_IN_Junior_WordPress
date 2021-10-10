@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&display=swap');
+*{
+    font-family: "Darker Grotesque", "sans serif";
+    margin: 0;
+}
+body {
+    font-family: "Darker Grotesque"
+    
+}
+header {
+    box-shadow: 0 0 1em #afafaf;
+    background-color: #85CDF5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/*link 1*/
+
+a.links-header1{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a.links-header2{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a.links-header1:hover{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+a.links-header2:hover{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.links-header1 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 50px;
+    left: 0;
+    transition: transform .3s ease-in-out;
+}
+.links-header1:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header1:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+    
+} 
+
+/*link 2*/
+
+.links-header2 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header2:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 50px;
+    transition: transform .3s ease-in-out;
+}
+.links-header2:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header2:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+}  
+/*caixa inicial*/
+.supertextbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.textbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    max-height: 10em;
+}
+.lupinha{
+    margin-top: 0.5em;
+    margin-right: 1em;
+    resize: initial;
+    display: flex;
+    align-self: center;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    width: 50em;
+    border:rgb(255, 255, 255);
+    border-bottom: 0.1em solid #333333;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.textbox2{
+    display: flex;
+    justify-content: left;
+    max-height: 10em;
+    margin-right: 44.2%;
+    margin-bottom: 3em;
+}
+.marker{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.verlobinhos{
+    margin-left:10px;
+}
+.containerlobos{
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+    width: 8.125em;
+    background: #DEB959;
+}
+.containerlobos .maislobo{
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2em;
+    color: #ffffff;
+}
+.marker{
+    width: 1.25em;
+    height: 1.25em;
+    left: 25.5em;
+    top: 14.625em;
+    background: #FAFAFA;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.verlobinhos{
+    width: 12.5em;
+    left: 1em;
+    font-family: Darker Grotesque;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    color: #353535;
+}
+
+/*Descrição 1*/
+
+.descricao1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.descricao1 .quadrado-azul {
+    background-color: #2C5680;
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    border: #333333 solid 4px;
+}
+.descricao1 .imagem-lobo {
+    /* background-image: url(./img/image\ \(1\).png); */
+    width: 25rem;
+    height: 20rem;
+    margin: 2rem 0 0 2rem;
+    position: relative;
+}
+#nome-botao1{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+#nome-botao0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#caixaAdotar1 {
+    height: 2.5rem;
+    width: 6em;
+    background: #DEB959;
+    font-family: Darker Grotesque;
+    font-size: 1.3rem;
+    border-color: #ffffff;
+    color:#ffffff;
+}
+
+#caixaAdotar0 {
+    
+    width: 6em;
+    background: #DEB959;
+    font-family: Darker Grotesque;
+    font-size: 1.3rem;
+    border-color: #ffffff;
+    color:#ffffff
+}
+
+
+.descricao1 .descricao-lobo {
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.descricao1 .nome-lobo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-right: 0;
+    width: 6em;
+}
+.descricao1 .idade-lobo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.descricao1 .texto-lobo {
+    font-size: 1.25rem;
+    font-weight: 400;
+    
+}
+
+.texto-lobo {
+    width: 20rem;
+}
+.descricao0 .texto-lobo {
+    margin-left: 5rem;
+}
+/*Descricao2*/
+
+.descricao0 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: end; 
+}
+.descricao0 .quadrado-azul {
+    background-color: #2C5680;
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    border: #333333 solid 4px;
+    margin-left: 4rem;
+}
+.descricao0 .imagem-lobo {
+   
+    width: 25rem;
+    height: 20rem;
+    margin: 2rem 0 0 2rem;
+    position: relative;
+}
+
+.descricao0 .descricao-lobo {
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+}
+.descricao0 .nome-lobo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.descricao0 .idade-lobo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.descricao0 .texto-lobo {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+section {
+    padding-bottom: 1rem;
+}
+
+/*Descicao 3*/
+
+.divisao-degrade {
+    background-image: linear-gradient(to right, #DEB959, #2C5680);
+    height: 0.4rem;
+} 
+footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+}
+.contatos a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: #DEB959;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    margin: 1rem 0 0 1rem;
+}
+.contatos img {
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem;
+}
+.contatos div {
+    display: flex;
+    align-items: center;
+}
+.pata {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pata img {
+    margin-right: 0.1rem;
+}

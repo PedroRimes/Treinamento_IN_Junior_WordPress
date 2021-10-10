@@ -1,0 +1,77 @@
+
+main {
+    border: black solid 4px;
+    margin: 4rem 4rem 4rem 4rem; 
+    width: auto;
+    padding: 0 20% 0 20%;
+    min-height: 15rem;
+}
+.titulo {
+    margin-top: 3rem;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+#myForm {
+    width: 100%;
+}
+#myForm div div textarea {
+   
+    width: 100%;
+}
+#myForm div {
+    margin: 2rem 0 0 0;
+}
+
+#myForm div p {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+
+#myForm div textarea {
+    width: 100%;
+}
+
+#nome-anos {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#nome-anos div:first-child {
+    width: 68%;
+    min-width: 13rem;
+} 
+#nome-anos div:last-child {
+    width: 30%;
+    padding-left: 2%;
+    min-width: 4rem;
+}
+
+
+
+#myForm div textarea{
+    background-color: #E6E6E6;
+    min-width: 13rem;
+}
+
+#description {
+    min-height: 15rem;
+}
+
+button {
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #2C5680;
+    color: white;
+    width: 209px;
+    height: 60px;
+    margin-bottom: 2rem;
+}
+
+#myForm #botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

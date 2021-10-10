@@ -1,0 +1,245 @@
+body {
+    
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+header {
+    box-shadow: 0 0 1em #afafaf;
+    background-color: #85CDF5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+/* Parte da animação menu ///////////////////////////////////*/
+a.links-header1{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a.links-header2{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+
+.links-header1 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 50px;
+    left: 0;
+    transition: transform .3s ease-in-out;
+}
+.links-header1:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header1:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+    
+} 
+
+
+.links-header2 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header2:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 50px;
+    transition: transform .3s ease-in-out;
+}
+.links-header2:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header2:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+}  
+/* /////////////////////////////////////////////// */
+.titulos-amarelos {
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-left: 0.7em;
+    padding-bottom: 0.2em;
+    text-align: center;
+}
+.num_id{
+    padding-left: 2em;
+}
+
+.adote-um-lobinho{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+.lobo_image {
+    background-image: url(./img/image\ \(1\)\ circulo.jpg);
+    width: 10em;
+    height: 10em;
+    margin: 2rem 0 0 2rem;
+    border-radius: 50%;
+    position: relative;
+}
+.imagem_nome{
+    display: flex;
+}
+.formulario{
+    padding: 2em;
+}
+.nome_id {
+    display: flex;  
+}
+
+.nome-lobo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.idade-lobo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.texto-lobo {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+input{
+    border: 0px;
+    border-bottom: 1px solid#727272;
+    ;
+}
+label{
+    font-size: 1.4em;
+    font-weight:500;
+    padding-bottom: 0.2em;
+}
+.botao{
+    text-align: center;
+    
+}
+button{
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border: 0em;
+    font-weight: 400;
+    background-color: #2C5680;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+.nome-idade{
+    display: flex;
+}
+.divisao-degrade {
+    background-image: linear-gradient(to right, #DEB959, #2C5680);
+    height: 0.4rem;
+} 
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2em;
+}
+#name{
+    width: 49.5em;
+}
+#age{
+    width: 4em;
+}
+#email{
+    width: 57em;
+}
+#myForm2{
+    padding-top: 2em;
+}
+footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+}
+
+
+.contatos a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: #DEB959;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    margin: 1rem 0 0 1rem;
+}
+
+.contatos img {
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem;
+}
+
+.contatos div {
+    display: flex;
+    align-items: center;
+}
+
+.pata {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pata img {
+    margin-right: 0.1rem;
+}

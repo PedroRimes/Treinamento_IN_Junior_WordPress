@@ -1,0 +1,21 @@
+main {
+    margin: 5rem 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+main h1{
+    font-size: 60px;
+    font-weight: 570;
+    text-align: center;
+}
+
+main p {
+    margin: 4rem 0 0 0;
+    font-size: 25px;
+    text-align: center;
+}
+

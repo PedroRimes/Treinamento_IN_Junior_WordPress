@@ -1,0 +1,282 @@
+/*
+Theme Name: Treinamento
+Author: Gabriel Spievak
+Description: para treinar
+Version: 1
+*/
+
+@import url(./css/reset.css);
+@import url(./css/style_adote_lobinho.css);
+@import url(./css/style_cadastro.css);
+@import url(./css/style_listaDeLobos.css);
+@import url(./css/style_quem_somos.css);
+@import url(./css/style_show_lobinhos.css);
+
+body {
+    
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+header {
+    box-shadow: 0 0 1em #afafaf;
+    background-color: #85CDF5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.links-header1{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+.links-header2{
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+    margin-top: 1.5em;
+    /* margin-bottom: 1.5em; */
+    position: relative;
+    border: 0;
+    background: 10px;
+    
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.links-header1 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header1:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 50px;
+    left: 0;
+    transition: transform .3s ease-in-out;
+}
+.links-header1:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header1:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+    
+} 
+
+
+.links-header2 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    padding-bottom: 0.2em;
+}
+.links-header2:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 50px;
+    transition: transform .3s ease-in-out;
+}
+.links-header2:after{
+    border-bottom: 3px solid rgb(51, 51, 51);
+    transform: scaleX(0);
+}
+.links-header2:hover:after{
+    color: rgb(255, 255, 255);
+    transform: scaleX(1);
+    font-size: 1.5rem;
+}  
+
+.lobo-grande {
+    width: auto;   
+    overflow: hidden;
+    height: 34rem;
+    display: flex;
+    background-image: url(./img/image\ \(3\).png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.lobo-grande div :first-child {
+    font-size: 7.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.sobre {
+    background-color: #2C567F;
+    text-align: center;
+}
+
+.titulos-amarelos {
+    color: #DEB959;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0.7em;
+    text-align: center;
+    margin-bottom: 0.7em;
+}
+
+.sobre p {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+.valores {
+    background-color: #333333;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#imagens-valores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#imagens-valores li div {
+    background-color: #FFFFFF;
+    margin: 0 2rem 0 2rem;
+    padding: 2rem;
+    max-width: 10rem;
+    border-radius: 100%;
+}
+#imagens-valores li {
+    max-width: 18rem;
+    
+}
+#imagens-valores li div img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.titulos-valores {
+    margin: 0 2rem 0 2rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-valores {
+    font-size: 1.7rem;
+    font-weight: 100;
+    line-height: 0.8;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.quadrado-azul {
+    background-color: #2C5680;
+    width: 25rem;
+    height: 20rem;
+    position: absolute;
+    border: #333333 solid 4px;
+}
+
+.descricao2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.descricao2 {
+    text-align: end; 
+}
+.descricao2 .quadrado-azul {
+    margin-left: 8rem;
+}
+
+.descricao2 .imagem-lobo {
+    background-image: url(./img/image\ \(2\).png);
+    margin-left: 6rem;
+}
+.divisao-degrade {
+    background-image: linear-gradient(to right, #DEB959, #2C5680);
+    height: 0.4rem;
+} 
+
+footer {
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+}
+
+
+.contatos a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: #DEB959;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    width: 10rem;
+    height: 2rem;
+    border: 0;
+    margin: 1rem 0 0 1rem;
+}
+
+.contatos img {
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem;
+}
+
+.contatos div {
+    display: flex;
+    align-items: center;
+}
+
+.pata {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pata img {
+    margin-right: 0.1rem;
+}
